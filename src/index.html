@@ -12,8 +12,7 @@
     <h1>HTML Form</h1>
     <script type="text/javascript" src="./main.js"></script>
 
-    <form action="http://localhost:8080" method="get">
-
+    <form action="http://localhost:8080/" method="post">
       <div class="fieldset-block">
         <fieldset>
           <legend>Personal information</legend>
@@ -45,13 +44,13 @@
           <div class="form-field">
             <label for="age">How old are you?
               <input
-                type="number"
-                id="age"
-                name="age"
-                value="12"
-                min="1"
-                max="100"
-                required
+              type="number"
+              id="age"
+              name="age"
+              value="12"
+              min="1"
+              max="100"
+              required
               >
             </label>
           </div>
@@ -59,11 +58,11 @@
           <div class="form-field">
             <label for="birth-date">Full date of birth:
               <input
-                type="date"
-                id="birth-date"
-                name="birth-date"
-                placeholder="mm / dd / yyyy"
-                required
+              type="date"
+              id="birth-date"
+              name="birth-date"
+              placeholder="mm / dd / yyyy"
+              required
               >
             </label>
           </div>
@@ -71,10 +70,10 @@
           <div class="form-field">
             <label for="terms">I accept term of the agreement
               <input
-                type="checkbox"
-                id="terms"
-                name="terms"
-                required
+              type="checkbox"
+              id="terms"
+              name="terms"
+              required
               >
             </label>
           </div>
@@ -88,11 +87,11 @@
           <div class="form-field">
             <label for="email">E-mail:
               <input
-                type="email"
-                id="email"
-                name="email"
-                placeholder="email@example.com"
-                required
+              type="email"
+              id="email"
+              name="email"
+              placeholder="email@example.com"
+              required
               >
             </label>
           </div>
@@ -100,12 +99,12 @@
           <div class="form-field">
             <label for="password">Password:
               <input
-                type="password"
-                id="password"
-                name="password"
-                minlength="6"
-                maxlength="32"
-                required
+              type="password"
+              id="password"
+              name="password"
+              minlength="6"
+              maxlength="32"
+              required
               >
             </label>
           </div>
@@ -120,20 +119,20 @@
             Do you love cats?
             <label>
               <input
-                type="radio"
-                id="yes"
-                name="yn"
-                value="y"
-                checked
+              type="radio"
+              id="yes"
+              name="yn"
+              value="y"
+              checked
               >
               Yes
             </label>
             <label>
               <input
-                type="radio"
-                id="no"
-                name="yn"
-                value="n"
+              type="radio"
+              id="no"
+              name="yn"
+              value="n"
               >
               No
             </label>
@@ -188,7 +187,7 @@
                 name="range"
                 min="1"
                 max="100"
-                value="0"
+                value="80"
               >
             </label>
           </div>
@@ -203,8 +202,7 @@
             Comments:
             <textarea
               name="text-area"
-              required
-              >
+              required>
             </textarea>
           </div>
           <div class="form-field">
@@ -225,6 +223,7 @@
       <div class="form-field">
         <button type="submit">Submit</button>
       </div>
+
     </form>
   </body>
 </html>

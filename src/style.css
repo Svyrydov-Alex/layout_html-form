@@ -1,8 +1,11 @@
 /* styles go here */
 .fieldset-block {
-  padding-top: 20px;
+  /* padding-bottom: 20px; */
+  /* padding-top: 20px; */
+  padding-bottom: 20px;
 }
 
 .form-field {
   padding-top: 10px;
+  /* padding-bottom: 5px; */
 }
